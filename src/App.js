@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-
+import CounterClass from './CounterClass'
+import CounterHooks from './CounterHooks'
+import Toggler from './Toggler'
+import { FormHooks, HookedFormHooks } from './FormHooks'
+import SWFilms from './StarWarsHooks'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <CounterClass />
+      <CounterHooks />
+      <Toggler />
+      <FormHooks />
+      <HookedFormHooks /> */}
+      <SWFilms />
     </div>
   );
 }
